@@ -142,7 +142,7 @@ int main (int argc, char *argv[]){
 		printf("Soy cliente\n");
 		//enviar_matriz( 7,  M1,  M2);
 
-		conexion_socket=conectarse_a_servidor("127.0.0.1",PUERTO);
+		conexion_socket=conectarse_a_servidor("190.49.54.2",PUERTO);
 
 		/* Chat =P
 		printf("Nombre: ");
@@ -175,7 +175,7 @@ int main (int argc, char *argv[]){
 			//printf("\n");
 		}
 
-		printf("Mis vidas [0-9]: ");
+		printf("Mis vidas (0-9): ");
 		char vidas1;
 		vidas1=getchar();
 		getchar();
