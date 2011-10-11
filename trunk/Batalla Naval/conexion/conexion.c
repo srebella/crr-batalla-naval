@@ -142,7 +142,7 @@ int main (int argc, char *argv[]){
 		printf("Soy cliente\n");
 		//enviar_matriz( 7,  M1,  M2);
 
-		conexion_socket=conectarse_a_servidor("190.49.54.2",PUERTO);
+		conexion_socket=conectarse_a_servidor("127.0.0.1",PUERTO);
 
 		/* Chat =P
 		printf("Nombre: ");
@@ -163,7 +163,7 @@ int main (int argc, char *argv[]){
 		for (i=0;i<8;i++){
 			for (j=0;j<8;j++){
 				M1[i][j]=letra1;
-				printf("%c",M1[i][j]);
+				printf("%c ",M1[i][j]);
 			}
 			printf("\n");
 		}
@@ -201,7 +201,7 @@ int main (int argc, char *argv[]){
 		printf("Matriz recibidas:\n");
 		for (i=0;i<8;i++){
 			for (j=0;j<8;j++){
-				printf("%c",M1[i][j]);
+				printf("%c ",M1[i][j]);
 			}
 			printf("\n");
 		}
