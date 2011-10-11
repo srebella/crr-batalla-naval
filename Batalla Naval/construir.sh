@@ -1,0 +1,6 @@
+make
+
+rm *.o
+
+./SSOO
+
